@@ -141,6 +141,13 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab.cpp" />
+    <ClCompile Include="QuadEquat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QuadEquat.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
